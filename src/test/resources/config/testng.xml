@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Test">
+    <listeners>
+        <listener class-name="com.mkautomation.listeners.AllureListener"/>
+    </listeners>
+    <test name="SauceDemo Test">
+         <classes>
+             <class name="com.mkautomation.test.ui.SauceDemoTest">
+             </class>
+          </classes>
+     </test>
+</suite> 
